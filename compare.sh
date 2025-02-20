@@ -1,10 +1,33 @@
 #!/bin/bash
 
+function HELP(){
+
+    local _name=${0##*/}
+    echo "usage: ${_name} <A_csv_file> <B_csv_file>"
+
+}
 
 
-A_FILE=$1
-B_FILE=$2
-OUTPUT_FILE=$3
+if [[ $# -ne 2 ]]; then
+    HELP
+    exit 1
+fi
+
+
+A_PATH=$1
+B_PATH=$2
+
+A_FILE=${A_PATH##*/}
+A_NAME=${A_FILE/.csv/}
+B_FILE=${B_PATH##*/}
+B_NAME=${B_FILE/.csv/}
+
+OUTPUT_DIR="output/compare"
+OUTPUT_FILE="output/compare/${A_NAME}_vs_${B_NAME}.csv"
+
+if [[ ! -e ${OUTPUT_DIR} ]]; then
+    mkdir ${OUTPUT_DIR}
+fi
 
 if [[ -e ${OUTPUT_FILE} ]]; then
     read -p "overwrite ${OUTPUT_FILE}?(Y/n)"
@@ -13,7 +36,7 @@ if [[ -e ${OUTPUT_FILE} ]]; then
     fi
 fi
 
-package_list="$(cat ${A_FILE} ${B_FILE} | awk -F"," {'print $1}' | sort  | uniq)"
+package_list="$(cat ${A_PATH} ${B_PATH} | awk -F"," {'print $1}' | sort  | uniq)"
 
 printf "%s, %s, %s, %s, %s, %s, %s, %s\n" \
     "pkg" "A_mk_path" "B_mk_path" "A_license" "B_license" "A_version" "B_version" "status" >> ${OUTPUT_FILE}
@@ -21,14 +44,14 @@ printf "%s, %s, %s, %s, %s, %s, %s, %s\n" \
 for pkg in ${package_list}
 do
     # parse A
-    A_mk_path=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $2); print $2}' ${A_FILE}))
-    A_license=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $3); print $3}' ${A_FILE}))
-    A_version=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $4); print $4}' ${A_FILE}))
+    A_mk_path=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $2); print $2}' ${A_PATH}))
+    A_license=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $3); print $3}' ${A_PATH}))
+    A_version=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $4); print $4}' ${A_PATH}))
 
     # parse B
-    B_mk_path=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $2); print $2}' ${B_FILE}))
-    B_license=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $3); print $3}' ${B_FILE}))
-    B_version=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $4); print $4}' ${B_FILE}))
+    B_mk_path=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $2); print $2}' ${B_PATH}))
+    B_license=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $3); print $3}' ${B_PATH}))
+    B_version=($( awk -F"," -v PKG=${pkg} '$1 == PKG{sub(/^[ \t]+/, "", $4); print $4}' ${B_PATH}))
 
     # status
     if [[ -z ${A_version[0]} ]]; then

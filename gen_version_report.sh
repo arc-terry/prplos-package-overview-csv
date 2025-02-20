@@ -3,50 +3,82 @@
 
 function HELP(){
     local _name=${0##*/}
-    echo "usage: ${_name} <path-to-feeds> <output-name>"
+    echo "usage: ${_name} <prplos-codebase-tag-or-branch>"
+    echo "e.g. ${_name} prplos-v3.1.0"
 }
 
 
 # MAIN
 
-FEEDS_FOLDER=$1
-OUTPUT_NAME=$2
-OUTPUT_FOLDER=${OUTPUT_NAME}
+TAG_INDEX=$1
+FEEDS_FOLDER="workspace/prplos/feeds"
 
-if [[ $# != 2 ]];then
-    HELP
-    exit
+# check if worksapce is ready
+if [[ ! -d "workspace/prplos" ]]; then
+    read -p "workspace is not ready!! prepare?(Y/N)"
+    if [[ "$REPLY" == "Y" ]]; then
+        echo "bash prepare_workspace.sh"
+        bash prepare_workspace.sh
+    fi
 fi
+
+# setup prplos codebase HEAD points to ${TAG_or_BRANCH}
+tag_list=($(git --git-dir=./workspace/prplos/.git tag))
+if [[ -z ${TAG_INDEX} ]]; then
+    count=0
+    echo "======================"
+    for tag in ${tag_list[@]}
+    do
+        printf "\t (%d) %s\n" $count $tag
+        count=$((count+1))
+    done
+    echo "======================"
+
+    read -e -p "select: "
+    TAG_INDEX=$REPLY
+fi
+
+TAG=${tag_list[${TAG_INDEX}]}
+OUTPUT_NAME=${TAG}
+OUTPUT_FOLDER="output/${OUTPUT_NAME}"
+
+cd ./workspace/prplos
+git switch --detach ${TAG}
+./scripts/gen_config.py clean
+./scripts/gen_config.py prpl x86_64
+cd -
 
 
 # create folder
 
 if [[ -d ${OUTPUT_FOLDER} ]]; then
-    read -p "overwrite ${OUTPUT_FOLDER}?(Y/n)"
+    read -p "Overwrite ${OUTPUT_FOLDER}?(Y/n)"
     if [[ $REPLY == "Y" ]]; then
         rm ${OUTPUT_FOLDER} -r
     fi
 fi
 
-mkdir ${OUTPUT_FOLDER}
+mkdir -p ${OUTPUT_FOLDER}
 
 feed_list=$(cat ${FEEDS_FOLDER}/../feeds.conf | grep "feed_" | awk '{print $2}')
 
+# generate sum.index to gather "feeds/*.index"
+
 for feed in ${feed_list}
 do
-    echo "=== $feed ==="
+    echo "parsing $feed ..."
     cat ${FEEDS_FOLDER}/${feed}.index >> "${OUTPUT_FOLDER}/sum.index"
-    echo ""
 done
+echo ""
 
-# header of csv
+# generate header of csv
 #printf "%s, %s, %s, %s, %s, %s\n" \
 #    "mk_num" "pk_num" "mk_path" "pk_name" "license" "version" >> "${OUTPUT_FOLDER}/${OUTPUT_NAME}.csv"
 
 printf "%s, %s, %s, %s\n" \
     "pk_name" "mk_path" "license" "version" >> "${OUTPUT_FOLDER}/${OUTPUT_NAME}.csv"
 
-# content of csv
+# generate content of csv
 gawk \
     -v OUTPUT_FOLDER=${OUTPUT_FOLDER} \
     -v OUTPUT_NAME=${OUTPUT_NAME} '
@@ -83,11 +115,11 @@ gawk \
 
         for (mk_num in makefile_list){
             for (pk_num in makefile_list[mk_num]){
-                printf("%s, %s, %s, %s\n", 
-                    makefile_list[mk_num][pk_num]["name"], 
-                    makefile_list[mk_num][pk_num]["path"], 
-                    makefile_list[mk_num][pk_num]["license"],
-                    makefile_list[mk_num][pk_num]["version"]);
+                #printf("%s, %s, %s, %s\n", 
+                #    makefile_list[mk_num][pk_num]["name"], 
+                #    makefile_list[mk_num][pk_num]["path"], 
+                #    makefile_list[mk_num][pk_num]["license"],
+                #    makefile_list[mk_num][pk_num]["version"]);
 
                 printf("%s, %s, %s, %s\n", 
                     makefile_list[mk_num][pk_num]["name"], 
