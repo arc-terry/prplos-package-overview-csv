@@ -1,0 +1,4591 @@
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/acl-manager/Makefile
+
+Package: acl-manager
+Menu: 1
+Submenu: Ambiorix
+Version: v0.6.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxp +libamxd +libamxo +libamxa +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: The ACL manager monitors ACL directory and merges ACL files
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: acl-manager-v0.6.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The ACL manager will monitor the ACL directory and merge ACL files together to create a single master ACL file per role.
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/acl-manager
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/amx-cli/Makefile
+
+Package: amx-cli
+Menu: 1
+Submenu: Ambiorix
+Version: v0.4.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxt +libamxm +libamxj +libevent2 +yajl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix interactive CLI
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amx-cli-v0.4.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix interactive CLI
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-cli
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/amx-fcgi/Makefile
+
+Package: amx-fcgi
+Menu: 1
+Submenu: Ambiorix
+Version: v1.3.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxm +libamxp +libamxd +libamxo +libamxb +libamxa +fcgi +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix Fast CGI app for web-servers
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amx-fcgi-v1.3.7.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix Fast CGI app for web-servers
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/amx-fcgi
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/amxb-inspect/Makefile
+
+Package: amxb-inspect
+Menu: 1
+Submenu: Ambiorix
+Version: v1.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix Backend inspector/validation tool
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amxb-inspect-v1.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix Backend inspector/validation tool
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxb-inspect
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/amxo-cg/Makefile
+
+Package: amxo-cg
+Menu: 1
+Submenu: Ambiorix
+Version: v1.2.14-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libxml2
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Object Definition Language Compiler/Generator
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amxo-cg-v1.2.14.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Object Definition Language Compiler/Generator
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxo-cg
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/apps/amxrt/Makefile
+
+Package: amxrt
+Menu: 1
+Submenu: Ambiorix
+Version: v2.1.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxp +libamxd +libamxo +libamxb +libevent2 +libcap-ng +libamxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data model runtime
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amxrt-v2.1.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data model runtime
+https://gitlab.com/prpl-foundation/components/ambiorix/applications/amxrt
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxa/Makefile
+
+Package: libamxa
+Menu: 1
+Submenu: Ambiorix
+Version: v0.10.29-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxd +libamxb
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Access control verification
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxa-v0.10.29.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Access control verification
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxa
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxb/Makefile
+
+Package: libamxb
+Menu: 1
+Submenu: Ambiorix
+Version: v4.7.21-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +uriparser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Bus agnostic C API (mediator)
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxb-v4.7.21.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Bus agnostic C API (mediator)
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxb
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxc/Makefile
+
+Package: libamxc
+Menu: 1
+Submenu: Ambiorix
+Version: v1.10.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: library providing generic reusable data containers
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxc-v1.10.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Libamxc is a library containing data containers, implemented in ansi C (C99).
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxc
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxd/Makefile
+
+Package: libamxd
+Menu: 1
+Submenu: Ambiorix
+Version: v6.1.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data model C-API
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxd-v6.1.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data model C-API
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxd
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxj/Makefile
+
+Package: libamxj
+Menu: 1
+Submenu: Ambiorix
+Version: v0.3.63-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +yajl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: JSON parser & generator using yajl and libamxc variants
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxj-v0.3.63.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	JSON parser & generator using yajl and libamxc variants
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxj
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxm/Makefile
+
+Package: libamxm
+Menu: 1
+Submenu: Ambiorix
+Version: v0.0.62-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: modularity API, simplifies creation of plug-ins
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxm-v0.0.62.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	modularity api, simplifies creation of add-ons (plug-ins, modules)
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxm
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxo/Makefile
+Build-Depends: bison/host flex/host
+
+Package: libamxo
+Menu: 1
+Submenu: Ambiorix
+Version: v4.2.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxs
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix Object Definition Language library
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxo-v4.2.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix Object Definition Language library
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxo
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxp/Makefile
+Build-Depends: bison/host flex/host
+
+Package: libamxp
+Menu: 1
+Submenu: Ambiorix
+Version: v1.3.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Common patterns implementation
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxp-v1.3.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Common patterns implementation
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxp
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxrt/Makefile
+
+Package: libamxrt
+Menu: 1
+Submenu: Ambiorix
+Version: v0.3.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxp +libamxd +libamxo +libamxb +libevent2 +libcap-ng
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix Run Time API
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxrt-v0.3.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix Run Time API
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxrt
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/ambiorix/libs/libamxrt/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxs/Makefile
+
+Package: libamxs
+Menu: 1
+Submenu: Ambiorix
+Version: v0.4.8-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxb +libamxd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data model synchronization C-API
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxs-v0.4.8.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data model synchronization C-API
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxs
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libamxt/Makefile
+
+Package: libamxt
+Menu: 1
+Submenu: Ambiorix
+Version: v0.2.25-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Common patterns implementation
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libamxt-v0.2.25.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Common patterns implementation
+https://gitlab.com/prpl-foundation/components/ambiorix/libraries/libamxt
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/libsahtrace/Makefile
+
+Package: libsahtrace
+Menu: 1
+Submenu: Ambiorix
+Version: v1.14.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Small and flexible library to enable tracing and logging
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libsahtrace-v1.14.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Small and flexible library to enable tracing and logging
+https://gitlab.com/prpl-foundation/components/core/libraries/libsahtrace
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/ambiorix/libs/libsahtrace/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/libs/uriparser/Makefile
+
+Package: uriparser
+Submenu: Ambiorix
+Version: 0.9.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: RFC 3986 compliant URI parsing and handling library
+Maintainer: 
+Source: uriparser-0.9.3.tar.gz
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Type: ipkg
+Description: 	Uriparser is a strictly RFC 3986 compliant URI parsing and handling library written in C89 ("ANSI C"). Uriparser is cross-platform, fast, supports Unicode, and is licensed under the New BSD license.
+https://uriparser.github.io/
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/mods/mod-amxb-ubus/Makefile
+
+Package: mod-amxb-ubus
+Menu: 1
+Submenu: Ambiorix
+Version: v3.1.28-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxb +libamxd +ubus
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ubus Backend
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amxb_ubus-v3.1.28.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ubus Backend
+https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_ubus
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/mods/mod-ba-cli/Makefile
+
+Package: mod-ba-cli
+Menu: 1
+Submenu: Ambiorix
+Version: v0.9.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxt +libamxm +libamxp +libamxd +libamxb +libamxa +amx-cli
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Bus Agnostic Command Line Interface
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-ba-cli-v0.9.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Bus Agnostic Command Line Interface
+https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-ba-cli
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/ambiorix/mods/mod-ba-cli/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/mods/mod-dm-cli/Makefile
+
+Package: mod-dm-cli
+Menu: 1
+Submenu: Ambiorix
+Version: v0.2.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxt +libamxm +libamxp +libamxd +libamxb +libamxo +amx-cli
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data Model Command Line Interface
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dm-cli-v0.2.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data Model Command Line Interface
+https://gitlab.com/prpl-foundation/components/ambiorix/modules/amx_cli/mod-dm-cli
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/mods/mod-lua-amx/Makefile
+
+Package: mod-lua-amx
+Menu: 1
+Submenu: Ambiorix
+Version: v0.1.10-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +lua
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix LUA extension
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-lua-amx-v0.1.10.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix LUA extension
+https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/mod-lua-amx
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/ambiorix/mods/mod-lua-amx/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/ambiorix/utilities/lua-amx/Makefile
+
+Package: lua-amx
+Menu: 1
+Submenu: Ambiorix
+Version: v0.3.15-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +lua +libevent2
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: LUA AMX Bindings 
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: lua-amx-v0.3.15.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	LUA AMX Bindings 
+https://gitlab.com/prpl-foundation/components/ambiorix/bindings/lua/lua-amx
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/ambiorix/utilities/lua-amx/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/libwebsockets4/Makefile
+Build-Depends: libubox
+
+Package: libwebsockets4-openssl
+Submenu: Upstream Backports/Forks
+Version: 4.2.1-2
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libcap +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: libwebsockets4
+Build-Variant: openssl
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: libwebsockets4 (OpenSSL)
+Maintainer: 
+Source: libwebsockets44-4.2.1.tar.gz
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description: libwebsockets4 (OpenSSL)
+https://libwebsockets.org
+
+@@
+
+Package: libwebsockets4-mbedtls
+Submenu: Upstream Backports/Forks
+Version: 4.2.1-2
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libcap +libmbedtls
+Conflicts: 
+Menu-Depends: 
+Provides: libwebsockets4
+Build-Variant: mbedtls
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: libwebsockets4 (mbedTLS)
+Maintainer: 
+Source: libwebsockets44-4.2.1.tar.gz
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description: libwebsockets4 (mbedTLS)
+https://libwebsockets.org
+
+@@
+
+Package: libwebsockets4-full
+Submenu: Upstream Backports/Forks
+Version: 4.2.1-2
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libcap +libopenssl +libuv +libevent2
+Conflicts: 
+Menu-Depends: 
+Provides: libwebsockets4
+Build-Variant: full
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: libwebsockets4 (Full - OpenSSL, libuv, plugins, CGI)
+Maintainer: 
+Source: libwebsockets44-4.2.1.tar.gz
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description: libwebsockets4 (Full - OpenSSL, libuv, plugins, CGI)
+https://libwebsockets.org
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/miniupnpd-prpl/Makefile
+
+Package: miniupnpd-prpl
+Submenu: Upstream Backports/Forks
+Version: gen_miniupnpd_2_3_3_v0.1.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libcap-ng +libmnl +libuuid +IPV6:ip6tables +IPV6:libip6tc +iptables +libip4tc +libnetfilter-conntrack +libamxb +libamxc +libamxd +libamxo +libamxp +tr181-firewall
+Conflicts: miniupnpd-iptables miniupnpd-nftables
+Menu-Depends: 
+Provides: miniupnpd-iptables
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Lightweight UPnP IGD, NAT-PMP & PCP daemon
+Maintainer: 
+Source: miniupnpd-gen_miniupnpd_2_3_3_v0.1.1.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Type: ipkg
+Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon
+https://miniupnp.tuxfamily.org/
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/miniupnpd2/Makefile
+
+Package: miniupnpd2-iptables
+Submenu: Upstream Backports/Forks
+Version: 2.3.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libcap-ng +libmnl +libuuid +IPV6:ip6tables +IPV6:libip6tc +iptables +libip4tc +libnetfilter-conntrack
+Conflicts: miniupnpd-nftables
+Menu-Depends: 
+Provides: miniupnpd2
+Build-Variant: iptables
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Lightweight UPnP IGD, NAT-PMP & PCP daemon (iptables)
+Maintainer: 
+Source: miniupnpd-2.3.3.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Type: ipkg
+Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon (iptables)
+https://miniupnp.tuxfamily.org/
+
+@@
+
+Package: miniupnpd2-nftables
+Submenu: Upstream Backports/Forks
+Version: 2.3.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libcap-ng +libmnl +libuuid +libnftnl
+Conflicts: miniupnpd2-iptables miniupnpd-iptables
+Menu-Depends: 
+Provides: miniupnpd2
+Build-Variant: nftables
+Default-Variant: nftables
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Lightweight UPnP IGD, NAT-PMP & PCP daemon (nftables)
+Maintainer: 
+Source: miniupnpd-2.3.3.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Type: ipkg
+Description: Lightweight UPnP IGD, NAT-PMP & PCP daemon (nftables)
+https://miniupnp.tuxfamily.org/
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/opennds-prpl/Makefile
+
+Package: opennds-prpl
+Submenu: Captive Portals
+Version: gen_10.1.3_v1.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libmicrohttpd-no-ssl
+Conflicts: nodogsplash opennds
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: open Network Demarcation Service
+Maintainer: Rob White <rob@blue-wave.net>
+Source: opennds-gen_10.1.3_v1.2.1.tar.gz
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Type: ipkg
+Description:   openNDS (open Network Demarcation Service) is a high performance, small footprint, Captive Portal.
+  It provides a border control gateway between a public local area network and the Internet.
+  It supports all scenarios ranging from small stand alone venues through to large mesh networks with multiple portal entry points.
+  Both the client driven Captive Portal Detection method (CPD) and gateway driven Captive Portal Identification method (CPI - RFC 8910 and RFC 8908) are supported.
+  This version uses nftables.
+https://gitlab.com/prpl-foundation/mirrors/opennds
+Rob White <rob@blue-wave.net>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/ppp-prpl/Makefile
+Build-Depends: libpcap
+
+Package: ppp-prpl
+Submenu: Upstream Backports/Forks
+Version: gen_2.4.9_v0.1.0-3
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-ppp +kmod-pppoe +libopenssl
+Conflicts: ppp
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: PPP daemon
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: ppp-gen_2.4.9_v0.1.0.tar.gz
+License: BSD-4-Clause
+CPE-ID: cpe:/a:samba:ppp
+Type: ipkg
+Description: This package contains the PPP (Point-to-Point Protocol) daemon.
+https://ppp.samba.org/
+Felix Fietkau <nbd@nbd.name>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/syslog-ng2/Makefile
+Build-Depends: HOST_OS_MACOS:fakeuname/host  !BUILD_NLS:libiconv
+
+Package: syslog-ng2
+Submenu: Upstream Backports/Forks
+Version: 4.1.1-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +glib2 +libopenssl +libpthread +librt +zlib +libdbi +libjson-c +libcurl +libuuid +SYSLOGNG_LOGROTATE:logrotate
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: admin
+Category: prpl Foundation
+Repository: base
+Title: A powerful syslog daemon
+Maintainer: Josef Schlehofer <josef.schlehofer@nic.cz>
+Source: syslog-ng-4.1.1.tar.gz
+License: LGPL-2.1-or-later GPL-2.0-or-later
+LicenseFiles: COPYING LGPL.txt GPL.txt
+CPE-ID: cpe:/a:balabit:syslog-ng
+Type: ipkg
+Description:   syslog-ng reads and logs messages to the system console, log
+  files, other machines and/or users as specified by its
+  configuration file.
+https://www.syslog-ng.com/products/open-source-log-management/
+Josef Schlehofer <josef.schlehofer@nic.cz>
+@@
+Config:
+config SYSLOGNG_LOGROTATE
+	bool "Logrotate support"
+	depends on PACKAGE_syslog-ng2
+	default n
+	help
+	  It adds support for logrotate functionality.
+
+config SYSLOGNG_LOGROTATE_MAXSIZE
+	string "Maximum size of /var/log/messages log file"
+	depends on SYSLOGNG_LOGROTATE
+	default "1M"
+	help
+	  Log files are rotated when they grow bigger than defined size bytes.
+
+config SYSLOGNG_LOGROTATE_ROTATE_COUNT
+	int "Maximum rotation count for /var/log/messages log file"
+	depends on SYSLOGNG_LOGROTATE
+	default 1
+	help
+	  Log files are rotated count times before being removed or mailed to
+	  the address specified in a mail directive. If count is 0, old
+	  versions are removed rather than rotated.
+@@
+
+
+Source-Makefile: feeds/feed_prpl/backports/packages_22.03/unbound-prpl/Makefile
+
+Package: unbound-daemon-prpl
+Submenu: Upstream Backports/Forks
+Version: v0.4.0-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +ca-bundle +libopenssl +@OPENSSL_WITH_EC +libexpat +libamxb +libamxc +libamxd +libamxo +libamxp +libunbound-prpl
+Conflicts: unbound-daemon
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Recursive DNS Server (daemon)
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Require-User: unbound:unbound
+Source: unbound-v0.4.0.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Type: ipkg
+Description:   This package contains the Unbound daemon including 'libevent', 'libmnl', and
+  'libpthread' to better handle large networks with heavy query loads. Options
+  are available under libraries/network/libunbound to custom trim Unbound for
+  smaller targets.
+https://nlnetlabs.nl/projects/unbound/about
+Eric Luehrsen <ericluehrsen@gmail.com>
+@@
+
+Package: libunbound-prpl
+Submenu: Upstream Backports/Forks
+Version: v0.4.0-0
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +ca-bundle +libopenssl +@OPENSSL_WITH_EC +libexpat +libamxb +libamxc +libamxd +libamxo +libamxp +PACKAGE_libunbound_dnscrypt:libsodium +PACKAGE_libunbound_ipset:libmnl +PACKAGE_libunbound_libevent:libevent2 +PACKAGE_libunbound_libpthread:libpthread +PACKAGE_libunbound_nghttp2:libnghttp2 +PACKAGE_libunbound_pythonmodule:python3-base +PACKAGE_libunbound_dnstap:libprotobuf-c
+Conflicts: libunbound
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: Recursive DNS Server (library)
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Require-User: unbound:unbound
+Source: unbound-v0.4.0.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Type: ipkg
+Description:   This package contains the Unbound library including 'libevent', 'libmnl', and
+  'libpthread' to better handle large networks with heavy query loads. Options
+  are available to custom trim Unbound for smaller targets.
+https://nlnetlabs.nl/projects/unbound/about
+Eric Luehrsen <ericluehrsen@gmail.com>
+@@
+Config:
+	if PACKAGE_libunbound
+	config PACKAGE_libunbound_dnscrypt
+		bool "Build with DNSCRYPT support."
+		default n
+	config PACKAGE_libunbound_ipset
+		bool "Build with IPSET (libmnl) support."
+		default y
+	config PACKAGE_libunbound_libevent
+		bool "Build with expanded network resource (libevent) support."
+		default y
+	config PACKAGE_libunbound_libpthread
+		bool "Build with POSIX threading (libpthread) support."
+		default y
+	config PACKAGE_libunbound_nghttp2
+		bool "Build with DNS over HTTPS support (nghttp2 framework)."
+		default n
+	config PACKAGE_libunbound_pythonmodule
+		bool "Build with PYTHON module for prototyping and data analysis."
+		default n
+	config PACKAGE_libunbound_subnet
+		bool "Build with SUBNET cache module support."
+		default n
+	config PACKAGE_libunbound_dnstap
+		bool "Build with dnstap support."
+		default n
+	endif
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/apps/gmap-client/Makefile
+
+Package: gmap-client
+Menu: 1
+Submenu: gMap
+Version: v1.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: gMap client plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-client-v1.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	gMap client plugin
+https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/gmap/apps/gmap-client/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/apps/gmap-mod-ethernet-dev/Makefile
+
+Package: gmap-mod-ethernet-dev
+Menu: 1
+Submenu: gMap
+Version: v1.16.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxb +libamxo +libamxj +libgmap-client +libgmap-ext +libsahtrace +libdhcpoptions +libdiscoping
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: adds discovered devices to the gMap datamodel
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-mod-ethernet-dev-v1.16.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	gMap component that adds discovered devices to the gmap datamodel and links them to the correct interface
+https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/apps/gmap-mod-name-selector/Makefile
+
+Package: gmap-mod-name-selector
+Menu: 1
+Submenu: gMap
+Version: v1.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +gmap-server +libamxc +libamxp +libamxd +libamxb +libsahtrace +libamxo +libgmap-client
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Name selection module for gmap
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-mod-name-selector-v1.0.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Name selection module for gmap
+https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/apps/gmap-mod-self/Makefile
+
+Package: gmap-mod-self
+Menu: 1
+Submenu: gMap
+Version: v1.4.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxd +libamxp +libamxb +libamxo +libamxs +libgmap-client +libgmap-ext +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: fetches information about the CPE itself
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-mod-self-v1.4.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	gmap module to fetch information about the hgw/repeater itself and the layer 2 'devices' on it
+https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/gmap/apps/gmap-mod-self/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/apps/gmap-server/Makefile
+Build-Depends: util-linux
+
+Package: gmap-server
+Menu: 1
+Submenu: gMap
+Version: v2.2.16-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxp +libamxb +libamxo +libgmap-client +libsahtrace +libuuid
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Service implementing the gmap data model
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-server-v2.2.16.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Service implementing the gmap data model
+https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/gmap/apps/gmap-server/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/configs/gmap-mibs-common/Makefile
+
+Package: gmap-mibs-common
+Menu: 1
+Submenu: gMap
+Version: v0.14.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +gmap-server +libamxc +libamxp +libamxd +libamxb +libsahtrace +libamxo +libgmap-client +libgmap-ext +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Generic mib files for the gmap service
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: gmap-mibs-common-v0.14.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Generic mib files for the gmap service
+https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/libs/libgmap-client/Makefile
+
+Package: libgmap-client
+Menu: 1
+Submenu: gMap
+Version: v1.6.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxo +libamxp +libamxb +libamxd +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Client library for gmap modules
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libgmap-client-v1.6.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Client library for gmap modules
+https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/gmap/libs/libgmap-ext/Makefile
+
+Package: libgmap-ext
+Menu: 1
+Submenu: gMap
+Version: v1.0.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxb +libamxd +libamxo +libsahtrace +libgmap-client
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Functionality common for gmap clients (not server)
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libgmap-ext-v1.0.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Functionality common for gmap clients (not server)
+https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/apps/cthulhu/Makefile
+
+Package: cthulhu
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v3.5.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxm +libamxj +libamxb +libsahtrace +yajl +libcthulhu +liblcm +libarchive +libocispec +libnl-core +libnl-route +!BUSYBOX_CONFIG_MKFS_EXT2:e2fsprogs +kmod-loop +kmod-veth +kmod-fs-ext4 +f2fsck +resize2fs
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Cthulhu manages the lifecycle of containers
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: cthulhu-v3.5.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Cthulhu manages the lifecycle of containers
+https://gitlab.com/prpl-foundation/lcm/applications/cthulhu
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/lcm/apps/cthulhu/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/apps/rlyeh/Makefile
+
+Package: rlyeh
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v2.3.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxm +libsahtrace +librlyeh
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Rlyeh is the local LCM repository
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: rlyeh-v2.3.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Rlyeh is the local LCM repository
+https://gitlab.com/prpl-foundation/lcm/applications/rlyeh
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/lcm/apps/rlyeh/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/apps/timingila/Makefile
+
+Package: timingila
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v2.0.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libamxc +libamxp +libamxd +libamxm +libamxo +mod-dmproxy +libuuid
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: High level LCM component
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: timingila-v2.0.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	High level LCM component
+https://gitlab.com/prpl-foundation/lcm/applications/timingila
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/lcm/apps/timingila/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/libs/libcthulhu/Makefile
+
+Package: libcthulhu
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v0.25.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libocispec +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: library provides shared functions and datastructures
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libcthulhu-v0.25.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module libcthulhu provides functions and datastructures that are shared between Cthulhu and its backends
+https://gitlab.com/prpl-foundation/lcm/libraries/libcthulhu
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/libs/liblcm/Makefile
+
+Package: liblcm
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v0.1.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxo +libamxp +libamxd +libamxp +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: provides common functions and datastructures
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: liblcm-v0.1.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module liblcm provides common functions and datastructures for LCM components
+https://gitlab.com/prpl-foundation/lcm/libraries/liblcm
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/libs/libocispec/Makefile
+
+Package: libocispec
+Menu: 1
+Submenu: Libraries
+Version: 2021-05-15-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +yajl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: library for accessing OCI runtime and image spec files
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libocispec-2021-05-15.tar.xz
+License: SAH BSD-2-Clause-Patent
+LicenseFiles: LICENSE.SAH LICENSE.BSD
+Type: ipkg
+Description: 	A library for easily parsing of OCI runtime and OCI image files from C
+https://github.com/containers/libocispec.git
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/libs/librlyeh/Makefile
+
+Package: librlyeh
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v1.1.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +yajl +libocispec +libopenssl +curl +libsahtrace +libgpgme
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: library for handling of OCI registries 
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: librlyeh-v1.1.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module librlyeh provides functions and datastructures to interact with OCI registries
+https://gitlab.com/prpl-foundation/lcm/libraries/librlyeh
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/mods/cthulhu-lxc/Makefile
+
+Package: cthulhu-lxc
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v0.9.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxj +libamxp +libamxd +libamxo +libsahtrace +liblxc +libcthulhu +liblcm +yajl +lxc
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: The module provides LXC support as a backend to Cthluhu
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: cthulhu-lxc-v0.9.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module Cthulhu-LXC provides LXC support as a backend to Cthluhu
+https://gitlab.com/prpl-foundation/lcm/modules/cthulhu-lxc
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/lcm/mods/cthulhu-lxc/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/mods/timingila-cthulhu/Makefile
+Build-Depends: libcthulhu
+
+Package: timingila-cthulhu
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v2.0.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxp +libamxb +libsahtrace +cthulhu +timingila
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: provides cthulhu support as a backend to timingila
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: timingila-cthulhu-v2.0.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module timingila-cthulhu provides cthulhu support as a container backend to timingila
+https://gitlab.com/prpl-foundation/lcm/modules/timingila-cthulhu
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/mods/timingila-rlyeh/Makefile
+Build-Depends: librlyeh
+
+Package: timingila-rlyeh
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v1.0.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxp +libamxd +libamxo +libamxb +libsahtrace +rlyeh +timingila
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: provides rlyeh support as backend to timingila
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: timingila-rlyeh-v1.0.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	The module timingila-rlyeh provides rlyeh support as a packager backend to timingila
+https://gitlab.com/prpl-foundation/lcm/modules/timingila-rlyeh
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/plugins/cthulhu/cthulhu-dhcpc/Makefile
+
+Package: cthulhu-dhcpc
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v1.2.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxp +libamxd +libamxo +libamxb +libsahtrace +libcthulhu +libocispec +liblcm
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Add dhcp client support to Cthulhu sandboxes
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: cthulhu-dhcpc-v1.2.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Add dhcp client support to Cthulhu sandboxes
+https://gitlab.com/prpl-foundation/lcm/plugins/cthulhu/cthulhu-dhcpc
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/lcm/plugins/cthulhu/cthulhu-networking/Makefile
+
+Package: cthulhu-networking
+Menu: 1
+Submenu: Life Cycle Management (LCM)
+Version: v0.1.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxp +libamxd +libamxo +libamxb +libsahtrace +libcthulhu +liblcm
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Add networking support to Cthulhu containers
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: cthulhu-networking-v0.1.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Add networking support to Cthulhu containers
+https://gitlab.com/prpl-foundation/lcm/plugins/cthulhu/cthulhu-networking
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/libs/fcgi/Makefile
+
+Package: fcgi
+Menu: 1
+Submenu: Libraries
+Version: 2.4.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: Shared library of FastCGI
+Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Source: fcgi2-2.4.2.tar.gz
+License: MIT
+LicenseFiles: LICENSE.TERMS
+Type: ipkg
+Description:  FastCGI is a language independent, scalable, open extension to
+ CGI that provides high performance without the limitations of
+ server specific APIs.
+https://fastcgi-archives.github.io/
+Jacob Siverskog <jacob@teenageengineering.com>
+@@
+
+Package: fcgixx
+Submenu: Libraries
+Version: 2.4.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread fcgi +libstdcpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: Shared library of FastCGI++
+Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Source: fcgi2-2.4.2.tar.gz
+License: MIT
+LicenseFiles: LICENSE.TERMS
+Type: ipkg
+Description: Shared library of FastCGI++
+https://fastcgi-archives.github.io/
+Jacob Siverskog <jacob@teenageengineering.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/libs/libpcp/Makefile
+
+Package: libpcp
+Submenu: Libraries
+Version: 2022-02-22-1c783fb83516ebf10ebebd023a490255d35f34fd-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: libs
+Category: prpl Foundation
+Repository: base
+Title: PCP client library implements client side of PCP
+Maintainer: 
+Source: libpcp-2022-02-22-1c783fb83516ebf10ebebd023a490255d35f34fd.tar.xz
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Type: ipkg
+Description:   PCP client library implements client side of PCP (RFC 6887) and NATPMP(RFC
+  6886) protocols.  Switch to NATPMP is done automatically by version
+  negotiation.  This library enables any network application to manage network
+  edge device (e.g. to create NAT mapping or ask router for specific flow
+  treatment).
+https://github.com/libpcp/pcp
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/libnetmodel/Makefile
+
+Package: libnetmodel
+Menu: 1
+Submenu: Libraries
+Version: v1.5.17-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: NetModel client library
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libnetmodel-v1.5.17.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	NetModel client library
+https://gitlab.com/prpl-foundation/components/core/libraries/libnetmodel
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/netmodel/libs/libnetmodel/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-bridge/Makefile
+
+Package: netmodel-bridge
+Menu: 1
+Submenu: Netmodel
+Version: v1.0.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model bridge client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-bridge-v1.0.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model bridge client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-bridge
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-dhcpv4/Makefile
+
+Package: netmodel-dhcpv4
+Menu: 1
+Submenu: Netmodel
+Version: v1.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model DHCPv4client client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-dhcpv4-v1.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model DHCPv4client client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv4
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-dhcpv6/Makefile
+
+Package: netmodel-dhcpv6
+Menu: 1
+Submenu: Netmodel
+Version: v1.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model DHCPv6client client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-dhcpv6-v1.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model DHCPv6client client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dhcpv6
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-dslite/Makefile
+
+Package: netmodel-dslite
+Menu: 1
+Submenu: Netmodel
+Version: v0.1.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model dslite client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-dslite-v0.1.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model dslite client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-dslite
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-ethernet/Makefile
+
+Package: netmodel-ethernet
+Menu: 1
+Submenu: Netmodel
+Version: v1.0.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model ethernet client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-ethernet-v1.0.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model ethernet client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ethernet
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-ip/Makefile
+
+Package: netmodel-ip
+Menu: 1
+Submenu: Netmodel
+Version: v1.4.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model IP client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-ip-v1.4.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model IP client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ip
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-iprouter/Makefile
+
+Package: netmodel-iprouter
+Menu: 1
+Submenu: Netmodel
+Version: v0.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model Router Advertisement client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-iprouter-v0.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model Router Advertisement client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-iprouter
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-logical/Makefile
+
+Package: netmodel-logical
+Menu: 1
+Submenu: Netmodel
+Version: v1.0.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model Logical client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-logical-v1.0.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model Logical client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-logical
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-netdev/Makefile
+
+Package: netmodel-netdev
+Menu: 1
+Submenu: Netmodel
+Version: v1.0.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model NetDev client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-netdev-v1.0.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model NetDev client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-netdev
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-ppp/Makefile
+
+Package: netmodel-ppp
+Menu: 1
+Submenu: Netmodel
+Version: v0.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model PPP client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-ppp-v0.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model PPP client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ppp
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-radio/Makefile
+
+Package: netmodel-radio
+Menu: 1
+Submenu: Netmodel
+Version: v0.1.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model radio client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-radio-v0.1.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model radio client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-radio
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-ssid/Makefile
+
+Package: netmodel-ssid
+Menu: 1
+Submenu: Netmodel
+Version: v0.1.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model ssid client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-ssid-v0.1.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model ssid client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-ssid
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-vlan/Makefile
+
+Package: netmodel-vlan
+Menu: 1
+Submenu: Netmodel
+Version: v1.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model vlan client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-vlan-v1.0.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model vlan client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-vlan
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/libs/netmodel-xpon/Makefile
+
+Package: netmodel-xpon
+Menu: 1
+Submenu: Netmodel
+Version: v0.1.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model xpon client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-xpon-v0.1.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model xpon client
+https://gitlab.com/prpl-foundation/components/netmodel/clients/netmodel-xpon
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/mods/mod-netmodel/Makefile
+
+Package: mod-netmodel
+Menu: 1
+Submenu: Netmodel
+Version: v0.5.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxp +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Module to populate NetModel
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-netmodel-v0.5.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Module to populate NetModel
+https://gitlab.com/prpl-foundation/components/netmodel/modules/mod-netmodel
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/plugins/netmodel/Makefile
+
+Package: netmodel
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.15.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +libdhcpoptions +amxrt +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-v2.15.7.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/netmodel
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/netmodel/plugins/netmodel/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/netmodel/plugins/netmodel-clients/Makefile
+
+Package: netmodel-clients
+Menu: 1
+Submenu: Netmodel
+Version: v0.2.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxm +libsahtrace +libnetmodel +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Network Model clients plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netmodel-clients-v0.2.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Network Model clients plugin
+https://gitlab.com/prpl-foundation/components/netmodel/applications/netmodel-clients
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/netmodel/plugins/netmodel-clients/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libdhcpoptions/Makefile
+
+Package: libdhcpoptions
+Menu: 1
+Submenu: Libraries
+Version: v0.6.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: DHCP options parsing and handling
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libdhcpoptions-v0.6.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Library to parse and evaluate the binary data of DHCP options
+https://gitlab.com/prpl-foundation/components/core/libraries/libdhcpoptions
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libdiscoping/Makefile
+
+Package: libdiscoping
+Menu: 1
+Submenu: Libraries
+Version: v0.10.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxb +libamxd +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Library discovering when IPs appear and disappear
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libdiscoping-v0.10.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Library discovering when IPs appear and disappear
+https://gitlab.com/prpl-foundation/components/core/libraries/libdiscoping
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libfiletransfer/Makefile
+
+Package: libfiletransfer
+Menu: 1
+Submenu: Libraries
+Version: v1.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +curl +libopenssl +uriparser +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Libfiletransfer provides an upload/download HTTP(s) API
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libfiletransfer-v1.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Libfiletransfer is a library providing an upload/download API for HTTP(s)
+https://gitlab.com/prpl-foundation/components/core/libraries/libfiletransfer
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libfwinterface/Makefile
+
+Package: libfwinterface
+Menu: 1
+Submenu: Libraries
+Version: v1.5.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libsahtrace +libfwrules +!DEFAULT_firewall4:libiptc +iptables +kmod-ifb +kmod-ip6tables +kmod-ipt-conntrack +kmod-ipt-conntrack-extra +kmod-ipt-core +kmod-ipt-extra +kmod-ipt-ipopt +kmod-ipt-nat +kmod-ipt-nat6 +kmod-ipt-nfqueue +kmod-ipt-raw +kmod-ipt-raw6 +kmod-nf-conntrack +kmod-nf-conntrack6 +!LINUX_4_9:kmod-nf-flow +kmod-nf-ipt +kmod-nf-ipt6 +kmod-nf-nat +kmod-nf-nat6 +kmod-nfnetlink +kmod-nfnetlink-queue +kmod-nf-reject +kmod-nf-reject6 +libip4tc +libip6tc +libsahtrace +libxtables +kmod-ipt-conntrack-extra +kmod-ip6tables-extra +kmod-nf-nathelper +kmod-nf-nathelper-extra +ip6tables-extra +iptables-mod-conntrack-extra
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: abstraction layer between libfwrules and system firewall
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libfwinterface-v1.5.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A library providing interfaces between lib_fwrules and netfilter
+https://gitlab.com/prpl-foundation/components/core/libraries/libfwinterface
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/libs/libfwinterface/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libfwrules/Makefile
+
+Package: libfwrules
+Menu: 1
+Submenu: Libraries
+Version: v2.1.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A library to store ordered firewall rules
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libfwrules-v2.1.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A library to store ordered firewall rules
+https://gitlab.com/prpl-foundation/components/core/libraries/libfwrules
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libipat/Makefile
+
+Package: libipat
+Menu: 1
+Submenu: Libraries
+Version: v1.5.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: IP Address Tools
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libipat-v1.5.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	IP Address Tools
+https://gitlab.com/prpl-foundation/components/core/libraries/libipat
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libnetlink-utils/Makefile
+
+Package: libnetlink-utils
+Menu: 1
+Submenu: Libraries
+Version: v0.0.9-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxb +libsahtrace +libnetfilter-queue +libnetfilter-conntrack +libmnl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Netlink utility library
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libnetlink-utils-v0.0.9.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Netlink utility library
+https://gitlab.com/prpl-foundation/components/core/libraries/libnetlink-utils
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/libs/libnetlink-utils/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libpacket-interception/Makefile
+
+Package: libpacket-interception
+Menu: 1
+Submenu: Libraries
+Version: v1.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Packet Interception library
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libpacket-interception-v1.0.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Packet Interception library
+https://gitlab.com/prpl-foundation/components/core/libraries/libpacket-interception
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libqoscommon/Makefile
+
+Package: libqoscommon
+Menu: 1
+Submenu: Libraries
+Version: v0.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A library for the qos common api
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libqoscommon-v0.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A library for the qos common api
+https://gitlab.com/prpl-foundation/components/core/libraries/libqoscommon
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libqosmod/Makefile
+
+Package: libqosmod
+Menu: 1
+Submenu: Libraries
+Version: v0.1.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A library for the qos modules
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libqosmod-v0.1.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A library for the qos modules
+https://gitlab.com/prpl-foundation/components/core/libraries/libqosmod
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libqosmodule/Makefile
+
+Package: libqosmodule
+Menu: 1
+Submenu: Libraries
+Version: v1.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A helper library to ease the implementation of QoS modules
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libqosmodule-v1.0.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A helper library to ease the implementation of QoS modules
+https://gitlab.com/prpl-foundation/components/core/libraries/libqosmodule
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/libs/libqosnode/Makefile
+
+Package: libqosnode
+Menu: 1
+Submenu: Libraries
+Version: v1.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libsahtrace +libqoscommon
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A library for the qos node api
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libqosnode-v1.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A library for the qos node api
+https://gitlab.com/prpl-foundation/components/core/libraries/libqosnode
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-autosensing/Makefile
+
+Package: mod-autosensing
+Menu: 1
+Submenu: Modules
+Version: v0.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxm +libamxo +libamxp +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: SoC module wan-manager select the active wan-mode
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-autosensing-v0.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	SoC module wan-manager select the active wan-mode
+https://gitlab.com/prpl-foundation/components/core/modules/mod-autosensing
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-dhcpv4c/Makefile
+
+Package: mod-dhcpv4c
+Menu: 1
+Submenu: Modules
+Version: v0.13.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxm +libamxj +libsahtrace +libdhcpoptions +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of a DHCPv4 client as ambiorix module
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dhcpv4c-v0.13.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of a DHCPv4 client as ambiorix module
+https://gitlab.com/prpl-foundation/components/core/modules/mod-dhcpv4c
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-dmext/Makefile
+Build-Depends: libamxo
+
+Package: mod-dmext
+Menu: 1
+Submenu: Modules
+Version: v0.6.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxb
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data model extension module
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dmext-v0.6.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data model extension module
+https://gitlab.com/prpl-foundation/components/core/modules/mod-dmext
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-dmproxy/Makefile
+
+Package: mod-dmproxy
+Menu: 1
+Submenu: Modules
+Version: v1.4.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxb +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Data model object proxy
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dmproxy-v1.4.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Data model object proxy
+https://gitlab.com/prpl-foundation/components/core/modules/mod-dmproxy
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-dmstats/Makefile
+
+Package: mod-dmstats
+Menu: 1
+Submenu: Modules
+Version: v0.1.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Reusable stats module
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dmstats-v0.1.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Reusable stats module
+https://gitlab.com/prpl-foundation/components/core/modules/mod-dmstats
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-dns-unbound/Makefile
+
+Package: mod-dns-unbound
+Menu: 1
+Submenu: Modules
+Version: v1.6.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libamxm +libsahtrace +DEFAULT_firewall4:unbound-daemon-prpl +!DEFAULT_firewall4:unbound-daemon
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix module to manage Unbound as DNS forwarder
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-dns-unbound-v1.6.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix module to manage Unbound as DNS forwarder
+https://gitlab.com/prpl-foundation/components/core/modules/mod-dns-unbound
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-fw-amx/Makefile
+
+Package: mod-fw-amx
+Menu: 1
+Submenu: Libraries
+Version: v0.3.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libamxm +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ambiorix module to configure the tr181-firewall
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-fw-amx-v0.3.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ambiorix module to configure the tr181-firewall
+https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-amx
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/mods/mod-fw-amx/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-fw-host/Makefile
+Build-Depends: libgmap-client
+
+Package: mod-fw-host
+Menu: 1
+Submenu: Modules
+Version: v0.1.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +amxrt +mod-dmext +libfwrules +libfwinterface +libmnl +libipat +gmap-client +gmap-mod-ethernet-dev +gmap-mod-name-selector +gmap-mod-self +gmap-server
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Host Module for Firewall
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-fw-host-v0.1.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Host Module for Firewall
+https://gitlab.com/prpl-foundation/components/core/modules/mod-fw-host
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-httpaccess-lighttpd/Makefile
+
+Package: mod-httpaccess-lighttpd
+Menu: 1
+Submenu: Modules
+Version: v0.1.8-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxm +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: HTTP access management for lighttpd server
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-httpaccess-lighttpd-v0.1.8.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Module to manage HTTP accesses for lighttpd server
+https://gitlab.com/prpl-foundation/components/core/modules/mod-httpaccess-lighttpd
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-logical-api/Makefile
+
+Package: mod-logical-api
+Menu: 1
+Submenu: Modules
+Version: v0.6.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxm +libamxo +libamxp +libamxb +libsahtrace +libnetmodel +libipat +libdhcpoptions +libipat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: High Level API for configuring interface hierarchies
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-logical-api-v0.6.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	High Level API for configuring interface hierarchies
+https://gitlab.com/prpl-foundation/components/core/modules/mod-logical-api
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-pcm-svc/Makefile
+
+Package: mod-pcm-svc
+Menu: 1
+Submenu: Modules
+Version: v0.9.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxd +libamxp +libamxb +libamxo +libamxm +libamxj +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Upgrade Persistent Configuration Manager service module
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-pcm-svc-v0.9.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Upgrade Persistent Configuration Manager service module
+https://gitlab.com/prpl-foundation/components/core/modules/mod-pcm-svc
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-ppp-daemon/Makefile
+Build-Depends: libsahtrace
+
+Package: mod-ppp-daemon
+Menu: 1
+Submenu: Modules
+Version: v0.5.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxm +amxrt +mod-netmodel +libnetmodel +ppp-prpl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Module integrating the pppd daemon as amx plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-ppp-daemon-v0.5.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Module integrating the pppd daemon as amx plugin
+https://gitlab.com/prpl-foundation/components/core/modules/mod-ppp-daemon
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-qos-tc/Makefile
+
+Package: mod-qos-tc
+Menu: 1
+Submenu: Modules
+Version: v2.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libqosmodule +libnl-core +libnl-route +libsahtrace +kmod-sched +kmod-sched-core +libqosnode
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Linux tc QoS Implementation
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-qos-tc-v2.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Linux tc QoS Implementation
+https://gitlab.com/prpl-foundation/components/core/modules/mod-qos-tc
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-ra-radvd/Makefile
+
+Package: mod-ra-radvd
+Menu: 1
+Submenu: Modules
+Version: v0.4.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxb +libamxp +libamxd +libsahtrace +radvd +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: SoC module to manage the radvd process
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-ra-radvd-v0.4.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	SoC module to manage the radvd process
+https://gitlab.com/prpl-foundation/components/core/modules/mod-ra-radvd
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-sahtrace/Makefile
+
+Package: mod-sahtrace
+Menu: 1
+Submenu: Modules
+Version: v1.1.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxo +libamxj +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Module for sahtrace logging
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-sahtrace-v1.1.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Module for sahtrace logging
+https://gitlab.com/prpl-foundation/components/core/modules/mod-sahtrace
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/mods/mod-sahtrace/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-vlan-ioctl/Makefile
+
+Package: mod-vlan-ioctl
+Menu: 1
+Submenu: Modules
+Version: v0.1.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: SoC module to help handling vlans
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-vlan-ioctl-v0.1.7.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	SoC module to help handling vlans
+https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-ioctl
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-vlan-uci/Makefile
+
+Package: mod-vlan-uci
+Menu: 1
+Submenu: Modules
+Version: v0.1.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxj +libamxm +libamxo +libamxp +libsahtrace +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: SoC module to help handling vlans
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-vlan-uci-v0.1.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	SoC module to help handling vlans
+https://gitlab.com/prpl-foundation/components/core/modules/mod-vlan-uci
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/mods/mod-xpon-prpl/Makefile
+
+Package: mod-xpon-prpl
+Menu: 1
+Submenu: Modules
+Version: v1.0.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxm +libamxd +libamxp +libamxb +libsahtrace +ubus
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: xpon prpl module
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-xpon-prpl-v1.0.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	xpon prpl module
+https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl
+Soft At Home <support.opensource@softathome.com>
+@@
+
+Package: mod-xpon-prpl-mock
+Submenu: Modules
+Version: v1.0.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread mod-xpon-prpl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: xpon prpl module mock
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-xpon-prpl-v1.0.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	xpon prpl module mock
+https://gitlab.com/prpl-foundation/components/core/modules/mod-xpon-prpl
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/opensource/radvd/Makefile
+
+Package: radvd
+Submenu: Utilities
+Version: 2.19-2
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: IPv6 Routing Advertisement Daemon
+Maintainer: 
+Source: radvd-2.19.tar.gz
+Type: ipkg
+Description: radvd is the router advertisement daemon for IPv6. It listens to router
+solicitations and sends router advertisements as described in "Neighbor
+Discovery for IP Version 6 (IPv6)" (RFC 4861).  With these advertisements hosts
+can automatically configure their addresses and some other parameters. They also
+can choose a default router based on these advertisements.
+http://v6web.litech.org/radvd/
+
+@@
+
+Package: radvdump
+Submenu: Utilities
+Version: 2.19-2
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: IPv6 Routing Advertisement Dumper
+Maintainer: 
+Source: radvd-2.19.tar.gz
+Type: ipkg
+Description: radvdump prints out the contents of incoming router advertisements sent by radvd
+or some other software implementing (parts of) "Neighbor Discovery for IP
+Version 6 (IPv6)" (RFC 4861).
+http://v6web.litech.org/radvd/
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/amx-processmonitor/Makefile
+
+Package: amx-processmonitor
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.2.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxp +libamxd +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: monitor processes
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amx-processmonitor-v0.2.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	monitor processes
+https://gitlab.com/prpl-foundation/components/core/plugins/amx-processmonitor
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/deviceinfo-manager/Makefile
+
+Package: deviceinfo-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.33.11-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxp +libamxd +libamxb +libamxo +libamxm +libsahtrace +mod-dmext +procps-ng +procps-ng-ps +libfiletransfer
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible DeviceInfo plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-deviceinfo-v2.33.11.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible DeviceInfo plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-deviceinfo
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/deviceinfo-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/dhcpv4-manager/Makefile
+
+Package: dhcpv4-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.7.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxj +libamxp +libamxd +libamxb +libamxo +libamxs +libamxm +libsahtrace +libnetmodel +mod-dmext +mod-fw-amx +libdhcpoptions +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dhcpv4-v2.7.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.DHCPv4.Server object of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/dhcpv6s-manager/Makefile
+
+Package: dhcpv6s-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.16.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxd +libamxp +libamxb +libamxo +libamxm +libsahtrace +libnetmodel +libdhcpoptions +mod-netmodel +mod-dmext +mod-fw-amx +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dhcpv6s-v0.16.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.DHCPv6.Server. object of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6s
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/dhcpv6s-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/ethernet-manager/Makefile
+
+Package: ethernet-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.20.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxp +libamxd +libamxm +libamxo +libsahtrace +libnetmodel +amxrt +mod-dmstats +mod-vlan-ioctl +mod-vlan-uci +mod-netmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Ethernet plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-ethernet-v1.20.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Ethernet plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ethernet
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/ethernet-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/hosts-manager/Makefile
+Build-Depends: libamxb
+
+Package: hosts-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.3.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxo +libamxs +libamxm +libgmap-client +libsahtrace +libnetmodel +mod-dmext +gmap-client +gmap-mod-ethernet-dev +gmap-mod-name-selector +gmap-mod-self +gmap-server
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-hosts-v0.3.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.Hosts of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-hosts
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/ip-manager/Makefile
+
+Package: ip-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.41.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxj +libamxm +libamxo +libamxp +libsahtrace +mod-dmext +mod-netmodel +libnetmodel +libipat +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-ip-v1.41.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.IP of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ip
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/ip-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/moca-manager/Makefile
+
+Package: moca-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.3.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxm +libamxo +libamxp +libsahtrace +libnetmodel +amxrt +mod-dmstats +mod-netmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: MoCA plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-moca-v0.3.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	MoCA plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-moca
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/moca-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/multisettings/Makefile
+
+Package: multisettings
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.9.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxb +libsahtrace +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: multisettings plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: multisettings-v0.9.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	multisettings plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/multisettings
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/multisettings/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/netdev-plugin/Makefile
+
+Package: netdev-plugin
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.11.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxd +libamxp +libamxb +libamxo +libsahtrace +libmnl +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: NetDev monitors the operating system's network devices
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: netdev-v1.11.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	NetDev monitors the operating system's network devices
+https://gitlab.com/prpl-foundation/components/core/plugins/netdev
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/netdev-plugin/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/packet-interception/Makefile
+
+Package: packet-interception
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.0.14-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxm +libamxp +libamxj +libsahtrace +mod-dmext +libfwrules +libfwinterface +libipat +libimtp +libnetmodel +libnetlink-utils +libpacket-interception +iptables-mod-nfqueue
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Packet Interception component
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: packet-interception-v0.0.14.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Packet Interception component
+https://gitlab.com/prpl-foundation/components/core/plugins/packet-interception
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/packet-interception/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/pcm-manager/Makefile
+
+Package: pcm-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.16.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxd +libamxp +libamxb +libamxo +libamxm +libamxj +libsahtrace +mod-dmext +mod-pcm-svc +libxml2 +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Upgrade Persistent Configuration Manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-pcm-v0.16.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Upgrade Persistent Configuration Manager
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcm
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/pcm-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/routing-manager/Makefile
+Build-Depends: libamxj
+
+Package: routing-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.16.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxd +libamxp +libamxb +libamxo +libamxm +libsahtrace +mod-dmext +mod-netmodel +libnetmodel +libdhcpoptions +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-routing-v1.16.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.Routing of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routing
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/routing-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/ssh-server/Makefile
+
+Package: ssh-server
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.5.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxp +libamxd +libamxo +libamxp +libamxm +amxrt +mod-dmext +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Process Controller Data Model - dropbear
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: ssh-server-v0.5.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Process Controller Data Model - dropbear
+https://gitlab.com/prpl-foundation/components/core/plugins/ssh-server
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/ssh-server/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/time-manager/Makefile
+
+Package: time-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.5.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +amxrt +libsahtrace +libnetmodel +mod-dmext +libamxm +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR181 Time plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-time-v2.5.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR181 Time plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-time
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/time-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-bridging/Makefile
+
+Package: tr181-bridging
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.3.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxj +libamxp +libamxb +libamxo +libamxm +libsahtrace +libnetmodel +mod-dmstats +mod-netmodel +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-bridging-v2.3.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.Bridging of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-bridging
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-bridging/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-button/Makefile
+
+Package: tr181-button
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.0.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +amxrt +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: expose the buttons and its states
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-button-v0.0.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of the Button HL API to expose the buttons and its states in (tr181) data model.
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-button
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-button/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-captiveportal/Makefile
+
+Package: tr181-captiveportal
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.5.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +libnetmodel +amxrt +opennds-prpl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: AMX Captive Portal plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-captiveportal-v0.5.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	AMX Captive Portal plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-captiveportal
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-captiveportal/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-device/Makefile
+
+Package: tr181-device
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.28.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libsahtrace +libamxo +libamxm +mod-dmext +mod-dmproxy
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible Device plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-device-v0.28.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible Device plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-device
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-device/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dhcpv4client/Makefile
+
+Package: tr181-dhcpv4client
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.24.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxj +libamxm +libamxo +libamxp +amxrt +libsahtrace +libdhcpoptions +libnetmodel +mod-netmodel +mod-dmext +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible DHCPv4 client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dhcpv4client-v1.24.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible DHCPv4 client
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv4client
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-dhcpv4client/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dhcpv6client/Makefile
+
+Package: tr181-dhcpv6client
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxj +libamxm +libamxo +libamxp +amxrt +libsahtrace +libdhcpoptions +libnetmodel +mod-netmodel +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible DHCPv6 client
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dhcpv6client-v1.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible DHCPv6 client
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dhcpv6client
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dns/Makefile
+
+Package: tr181-dns
+Menu: 1
+Submenu: TR-181 Managers
+Version: v2.7.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libamxm +libnetmodel +libsahtrace +libipat +amxrt +mod-dmext +mod-fw-amx +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: dns plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dns-v2.7.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	dns plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dns
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-dns/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dnssd/Makefile
+
+Package: tr181-dnssd
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.4.10-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libamxm +libamxj +libsahtrace +libnetmodel +umdns +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: dns service discovery plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dnssd-v0.4.10.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	dns service discovery plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dnssd
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-dnssd/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dslite/Makefile
+
+Package: tr181-dslite
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.8.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxm +libamxb +libsahtrace +amxrt +mod-netmodel +libnetmodel +libcares +kmod-ip6-tunnel +kmod-iptunnel6
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible DSLite plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dslite-v0.8.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible DSLite plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dslite
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-dslite/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-dynamicdns/Makefile
+
+Package: tr181-dynamicdns
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.2.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxb +libamxj +libamxp +libamxd +libamxo +libamxm +libsahtrace +mod-dmext +libnetmodel +wget +ca-certificates +curl +ca-bundle +libatomic1 +libuv1 +openssl-util +bind-libs +bind-client +ddns-scripts +ddns-scripts_no-ip_com +ddns-scripts_cloudflare.com-v4 +ddns-scripts_nsupdate +ddns-scripts_godaddy.com-v1 +ddns-scripts_freedns_42_pl +ddns-scripts_route53-v1 +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: DynamicDNS plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-dynamicdns-v1.2.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	DynamicDNS plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-dynamicdns
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-firewall/Makefile
+Build-Depends: SAH_AMX_TR181_FIREWALL_WITH_GMAP:libgmap-client
+
+Package: tr181-firewall
+Menu: 1
+Submenu: TR-181 Managers
+Version: v6.13.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace +amxrt +mod-dmext +libfwrules +libfwinterface +libnetmodel +libmnl +libnetfilter-queue +mod-pcm-svc +libipat +SAH_AMX_TR181_FIREWALL_WITH_GMAP:gmap-client +SAH_AMX_TR181_FIREWALL_WITH_GMAP:gmap-mod-ethernet-dev +SAH_AMX_TR181_FIREWALL_WITH_GMAP:gmap-mod-name-selector +SAH_AMX_TR181_FIREWALL_WITH_GMAP:gmap-mod-self +SAH_AMX_TR181_FIREWALL_WITH_GMAP:gmap-server
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR181 firewall manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-firewall-v6.13.5.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR181 firewall manager
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-firewall
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-firewall/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-httpaccess/Makefile
+
+Package: tr181-httpaccess
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.10.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxb +libamxm +amxrt +libnetmodel +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 HTTPAccess model plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-httpaccess-v0.10.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 HTTPAccess model plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-httpaccess
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-httpaccess/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-ipdiagnostics/Makefile
+
+Package: tr181-ipdiagnostics
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.6.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxb +libamxj +libamxp +libamxd +libamxo +libamxm +libsahtrace +mod-dmext +libnetmodel +iperf3 +iputils-ping
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Speedtest plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-ipdiagnostics-v0.6.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Speedtest plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ipdiagnostics
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-led/Makefile
+
+Package: tr181-led
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.4.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libsahtrace +amxrt +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible plugin for device LEDs management
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-led-v0.4.7.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible plugin for device LEDs management
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-led
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-led/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-logical/Makefile
+
+Package: tr181-logical
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.6.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libsahtrace +amxrt +mod-dmstats +mod-netmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: logical interface plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-logical-v0.6.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	logical interface plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-logical
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-logical/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-neighbordiscovery/Makefile
+
+Package: tr181-neighbordiscovery
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.8.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libsahtrace +libamxo +libamxm +mod-dmext +libnetmodel +mod-fw-amx
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible neighbordiscovery plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-neighbordiscovery-v0.8.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible neighbordiscovery plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-neighbordiscovery
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-neighbordiscovery/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-pcp/Makefile
+
+Package: tr181-pcp
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.7.2-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxp +libamxd +libamxo +libamxm +libsahtrace +amxrt +libpcp +libnetmodel +libcares
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Port control protocol
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-pcp-v0.7.2.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Port control protocol
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-pcp
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-pcp/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-ppp/Makefile
+
+Package: tr181-ppp
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.13.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxj +libamxm +libamxo +libamxp +amxrt +libsahtrace +mod-dmext +mod-dmstats +mod-netmodel +libnetmodel +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible PPP plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-ppp-v0.13.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible PPP plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-ppp
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-qos/Makefile
+
+Package: tr181-qos
+Menu: 1
+Submenu: TR-181 Managers
+Version: v3.3.12-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +amxrt +libsahtrace +mod-dmext +libfwrules +libfwinterface +libnetmodel +libamxm +libqoscommon +libqosnode +libqosmodule
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 QoS model plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-qos-v3.3.12.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 QoS model plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-qos
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-qos/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-routeradvertisement/Makefile
+
+Package: tr181-routeradvertisement
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.14.6-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amxrt +libamxc +libamxd +libamxb +libamxo +libamxm +libamxp +libsahtrace +mod-dmext +libnetmodel +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Implementation of Device
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-routeradvertisement-v0.14.6.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Implementation of Device.RouterAdvertisement object of the TR-181 datamodel
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-routeradvertisement
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-security/Makefile
+
+Package: tr181-security
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libsahtrace +libamxo +libamxm +mod-dmext +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible security plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-security-v0.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible security plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-security
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-security/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-syslog/Makefile
+
+Package: tr181-syslog
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.5.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxo +libamxm +libamxb +libsahtrace +libnetmodel +amxrt +mod-dmext
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 compatible syslog
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-syslog-v1.5.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible syslog
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-syslog
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-upnp/Makefile
+
+Package: tr181-upnp
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.6.4-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxb +libamxc +libamxd +libamxo +libamxp +libamxm +libnetmodel +libsahtrace +amxrt +mod-fw-amx +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: upnp manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-upnp-v0.6.4.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	upnp manager
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-upnp
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-upnp/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-usermanagement/Makefile
+
+Package: tr181-usermanagement
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.14.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxd +libamxo +libamxb +libsahtrace +lua-amx
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: tr181 user management plugin
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-usermanagement-v0.14.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	tr181 user management plugin
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-usermanagement
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-usermanagement/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/tr181-xpon/Makefile
+
+Package: tr181-xpon
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.4.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxm +libsahtrace +amxrt +mod-netmodel +SAH_AMX_TR181_XPON_USE_NETDEV_COUNTERS:mod-dmstats
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR-181 XPON manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr181-xpon-v1.4.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 XPON manager
+https://gitlab.com/prpl-foundation/components/core/plugins/tr181-xpon
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/tr181-xpon/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/wan-autosensing/Makefile
+
+Package: wan-autosensing
+Menu: 1
+Submenu: TR-181 Managers
+Version: v0.3.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +amxrt +libsahtrace +libnetmodel
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: WAN Autosensing
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: wan-autosensing-v0.3.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	WAN Autosensing
+https://gitlab.com/prpl-foundation/components/core/plugins/wan-autosensing
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/wan-autosensing/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/plugins/wan-manager/Makefile
+
+Package: wan-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.1.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxm +libamxo +libamxj +amxrt +libsahtrace +libnetmodel +mod-dmext +rpcd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: plugin for advanced WAN mode configuration
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: wan-manager-v1.1.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR-181 compatible plugin for advanced WAN mode configuration
+https://gitlab.com/prpl-foundation/components/core/plugins/wan-manager
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/network/plugins/wan-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/utilities/debug-information/Makefile
+
+Package: debug-information
+Menu: 1
+Submenu: Utilities
+Version: v0.1.18-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +procps-ng +procps-ng-pmap +procps-ng-ps +lua-amx +lua
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: collects debug information from running system
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: debug-information-v0.1.18.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Scripts to provide debug Information for a running system
+https://gitlab.com/prpl-foundation/components/utilities/debug-information
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/utilities/odl-generator/Makefile
+
+Package: odl-generator
+Menu: 1
+Submenu: Utilities
+Version: v1.7.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +ucode
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Odl generator using ucode
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: odl-generator-v1.7.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Odl generator using ucode.
+https://gitlab.com/prpl-foundation/components/utilities/odl-generator
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/utilities/prpl-webui/Makefile
+
+Package: prpl-webui
+Submenu: Utilities
+Version: 0.2.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +tr181-rest-api +lighttpd-mod-rewrite
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Reference webUI for prplOS using the EmberJS framework
+Maintainer: 
+Source: prpl-webui-0.2.7.tar.gz
+License: BSD-2-Clause-Patent
+Type: ipkg
+Description:  This package contains reference web UI implementation for prplOS using the
+ EmberJS framework.
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/network/utilities/tr181-rest-api/Makefile
+
+Package: tr181-rest-api
+Submenu: Utilities
+Version: v0.1.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +amx-fcgi +lighttpd +lighttpd-mod-fastcgi +lighttpd-mod-auth +lighttpd-mod-authn_file +lighttpd-mod-setenv
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR181 REST API
+Maintainer: 
+Source: 
+License: BSD-2-Clause-Patent
+Type: ipkg
+Description:  This package contains TR181 based REST API powered by lighttpd and
+ using amx-fcgi module.
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/obuspa/Makefile
+
+Package: obuspa
+Menu: 1
+Submenu: Utilities
+Version: v8.0.4-prpl-integration3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsqlite3 +libcurl +libmosquitto
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Provides User Services Platform (USP) Agent.
+Maintainer: support.prpl@vantiva.com
+Source: obuspa-v8.0.4-prpl-integration3.tar.xz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	OB-USP-AGENT is a daemon providing a User Services Platform (USP) Agent.
+support.prpl@vantiva.com
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/Makefile
+
+Package: prplmesh
+Submenu: prplMesh
+Prereq-Check: 1
+Version: 4.2.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libstdcpp +libpthread +librt +libjson-c +libopenssl +libnl +uci +ubus +ubox +ebtables +TARGET_intel_mips:dwpal_6x-uci +TARGET_intel_mips:iwlwav-hostap-uci +TARGET_intel_mips:libsafec3 +TARGET_intel_mips:bridge-ugw +(TARGET_intel_x86&&PACKAGE_mod-whm):dwpal_6x-uci-osp +(TARGET_intel_x86&&PACKAGE_mod-whm):iwlwav-hostap-ng-uci +(TARGET_intel_x86&&PACKAGE_mod-whm-debug):dwpal_6x-uci-osp-debug +(TARGET_intel_x86&&PACKAGE_mod-whm-debug):iwlwav-hostap-ng-uci-debug +TARGET_intel_x86:libsafec3 +TARGET_intel_x86:bridge +!(TARGET_intel_x86||TARGET_intel_mips||TARGET_brcmbca||TARGET_ipq95xx):hostapd-openssl +!(TARGET_intel_x86||TARGET_intel_mips||TARGET_brcmbca||TARGET_ipq95xx):wpa-supplicant-openssl +TARGET_ipq95xx:hostapd-qca-openssl +TARGET_ipq95xx:wpa-supplicant-qca-openssl +PRPLMESH_ENABLE_AMBIORIX_UBUS_BACKEND:libamxb +PRPLMESH_ENABLE_AMBIORIX_UBUS_BACKEND:libamxrt +PRPLMESH_ENABLE_AMBIORIX_UBUS_BACKEND:mod-pcm-svc +PRPLMESH_ENABLE_AMBIORIX_UBUS_BACKEND:pcm-manager +PRPLMESH_ENABLE_AMBIORIX_UBUS_BACKEND:mod-amxb-ubus +USE_PRPLMESH_WHM:pwhm
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: prplmesh
+Maintainer: prplfoundation
+Source: prplMesh-4.2.3.tar.gz
+Type: ipkg
+Description: prplmesh
+https://gitlab.com/prpl-foundation/prplmesh/prplMesh/-/blob/master/README.md
+prplfoundation
+@@
+Config:
+	source "feeds/feed_prpl/prplmesh/Config.in"
+@@
+
+Package: prplmesh-unit-tests
+Submenu: prplMesh
+Prereq-Check: 1
+Version: 4.2.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +prplmesh +@PRPLMESH_ENABLE_UNIT_TESTS
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: prplmesh - unit tests
+Maintainer: prplfoundation
+Source: prplMesh-4.2.3.tar.gz
+Type: ipkg
+Description: prplmesh - unit tests
+https://gitlab.com/prpl-foundation/prplmesh/prplMesh/-/blob/master/README.md
+prplfoundation
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/libs/libswla/Makefile
+Build-Depends: doxygen/host
+
+Package: libswla
+Menu: 1
+Submenu: prplMesh
+Version: v3.12.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libswlc +libamxc +libamxp +libamxd +libamxb +amxrt
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Shared Wifi Library using amx
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libswla-v3.12.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Shared Wifi Library using amx
+https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswla
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/libs/libswlc/Makefile
+Build-Depends: doxygen/host openssl/host
+
+Package: libswlc
+Menu: 1
+Submenu: prplMesh
+Version: v5.20.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: Shared Wifi Library
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libswlc-v5.20.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Shared Wifi Library
+https://gitlab.com/prpl-foundation/prplmesh/pwhm/libraries/libswlc
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/modules/mod-whm-dummy/Makefile
+
+Package: mod-whm-dummy
+Menu: 1
+Submenu: prplMesh
+Version: v0.1.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libswlc +libswla +pwhm +libamxc +libamxm +libamxp +libamxd +libamxb +libamxo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Dummy vendor module for wireless hardware manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-whm-dummy-v0.1.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	Dummy vendor module for wireless hardware manager
+https://gitlab.com/prpl-foundation/prplmesh/pwhm/modules/mod-whm-dummy
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/modules/mod-whm-freedom/Makefile
+
+Package: mod-whm-freedom
+Submenu: prplMesh
+Version: 0.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_ipq95xx_generic_DEVICE_prpl_freedom
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Freedom board module for wireless hardware manager
+Maintainer: 
+Source: 
+License: BSD-2-Clause-Patent
+Type: ipkg
+Description:  This package contains Freedom board ODL configuration files for wireless hardware manager
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/modules/mod-whm-haze/Makefile
+
+Package: mod-whm-haze
+Submenu: prplMesh
+Version: 0.0.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_ipq807x_generic_DEVICE_prpl_haze
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Haze board module for wireless hardware manager
+Maintainer: 
+Source: 
+License: BSD-2-Clause-Patent
+Type: ipkg
+Description:  This package contains Haze board ODL configuration files for wireless hardware manager
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/modules/mod-whm-qca-ipq95xx/Makefile
+
+Package: mod-whm-qca-ipq95xx
+Menu: 1
+Submenu: prplMesh
+Version: v0.1.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libswlc +libswla +pwhm +libamxc +libamxm +libamxp +libamxd +libamxb +libamxo
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: QCA ipq95xx module for wireless hardware manager
+Maintainer: 
+Source: mod-whm-qca-ipq95xx-v0.1.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	QCA ipq95xx module for wireless hardware manager
+https://gitlab.com/prpl-foundation/prplmesh/pwhm/modules/mod-whm-qca-ipq95xx
+
+@@
+
+
+Source-Makefile: feeds/feed_prpl/prplmesh/plugins/pwhm/Makefile
+Build-Depends: openssl/host
+
+Package: pwhm
+Menu: 1
+Submenu: prplMesh
+Version: v5.45.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libsahtrace +libswlc +libswla +libopenssl +libnl-core +libnl-genl +libamxm +libamxc +libamxp +libamxd +libamxb +libamxo +amxrt +mod-netmodel +TARGET_ipq807x_generic_DEVICE_prpl_haze:mod-whm-haze +TARGET_ipq95xx_generic_DEVICE_prpl_freedom:mod-whm-freedom
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: PrplMesh WHM
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: pwhm-v5.45.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	prplMesh WHM
+https://gitlab.com/prpl-foundation/prplmesh/pwhm/plugins/pwhm
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/prplmesh/plugins/pwhm/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/station-sniffer/Makefile
+
+Package: station-sniffer
+Submenu: prplMesh
+Version: 2023-10-26-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libradiotap +libstdcpp +libpthread +libnl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: prpl Foundation
+Repository: base
+Title: station-sniffer
+Maintainer: Tucker Polomik <t.polomik@cablelabs.com tuckerpo@buffalo.edu>
+Source: station-sniffer-2023-10-26.tar.xz
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A userspace application to capture and parse radiotap headers using libpcap for packet capture and libradiotap for radiotap parsing.
+	Serves parsed radiotap data over Unix sockets.
+Tucker Polomik <t.polomik@cablelabs.com tuckerpo@buffalo.edu>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/tr69/libraries/libtr69-engine/Makefile
+
+Package: libtr69-engine
+Menu: 1
+Submenu: Libraries
+Version: v0.8.5-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: ACS RPCs methods and data parser
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libtr69-engine-v0.8.5.tar.gz
+License: Apache-2.0
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	libraries to define and implement the ACS RPCs methods and data parser
+https://gitlab.com/prpl-foundation/components/core/libraries/libtr69-engine
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/tr69/libraries/libtr69-engine/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/tr69/plugins/tr069-manager/Makefile
+
+Package: tr069-manager
+Menu: 1
+Submenu: TR-181 Managers
+Version: v1.31.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libamxm +libamxa +mod-dmext +libsahtrace +libwebsockets4-full +libevent2 +libtr69-engine +uriparser +libcares +libnetmodel +libfiletransfer +libdhcpoptions
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: TR069 Manager
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: tr069-manager-v1.31.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	TR069 Manager
+https://gitlab.com/prpl-foundation/components/core/plugins/tr069-manager
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/tr69/plugins/tr069-manager/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/example/obuspa-usp-app/Makefile
+
+Package: obuspa-usp-app
+Menu: 1
+Submenu: Utilities
+Version: v1.0.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: A simple obuspa USP plugin
+Maintainer: steven.corby@vantiva.com
+Source: 
+License: MIT
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	A simple plugin that demonstrates how to create a USP application using obuspa
+steven.corby@vantiva.com
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/libs/libimtp/Makefile
+
+Package: libimtp
+Menu: 1
+Submenu: Libraries
+Version: v2.1.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libsahtrace +uriparser
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: connects two USP endpoints over Unix domain socket
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libimtp-v2.1.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	libimtp is a library which provides functionality to set up a connection between two internal USP endpoints using a unix domain socket.
+https://gitlab.com/prpl-foundation/components/core/libraries/libimtp
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/libs/libusp/Makefile
+
+Package: libusp
+Menu: 1
+Submenu: Libraries
+Version: v2.6.7-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxj +libamxd +libsahtrace +libuspprotobuf
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: converts protobuf messages to amx variants
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libusp-v2.6.7.tar.gz
+License: BSD-2-Clause-Patent BSD-3-Clause
+LicenseFiles: LICENSE.BSD2 LICENSE.BSD3
+Type: ipkg
+Description: 	converts protobuf messages to amx variants
+https://gitlab.com/prpl-foundation/components/core/libraries/libusp
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/libs/libuspi/Makefile
+
+Package: libuspi
+Menu: 1
+Submenu: Libraries
+Version: v1.0.3-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libsahtrace +libusp +libimtp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: setting up and managing IMTP connections
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libuspi-v1.0.3.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	libuspi is a common library for setting up and managing IMTP connections
+https://gitlab.com/prpl-foundation/components/core/libraries/libuspi
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/libs/libuspprotobuf/Makefile
+Build-Depends: protobuf/host protobuf-c/host
+
+Package: libuspprotobuf
+Menu: 1
+Submenu: Libraries
+Version: v0.5.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libprotobuf-c
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: This library generates C code from 
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: libprotobuf-v0.5.1.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	This library generates C code from .proto files provided by bbf
+https://gitlab.com/prpl-foundation/components/core/libraries/libprotobuf
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/mods/mod-amxb-usp/Makefile
+
+Package: mod-amxb-usp
+Menu: 1
+Submenu: Modules
+Version: v4.4.0-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libimtp +libusp +libuspi
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: USP backend implementation for amxb
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: amxb_usp-v4.4.0.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	USP backend implementation for amxb
+https://gitlab.com/prpl-foundation/components/ambiorix/modules/amxb_backends/amxb_usp
+Soft At Home <support.opensource@softathome.com>
+@@
+Config:
+	source "feeds/feed_prpl/usp/mods/mod-amxb-usp/Config.in"
+@@
+
+
+Source-Makefile: feeds/feed_prpl/usp/mods/mod-usp-registration/Makefile
+
+Package: mod-usp-registration
+Menu: 1
+Submenu: Modules
+Version: v0.1.1-1
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +libamxc +libamxp +libamxd +libamxb +libamxo +libsahtrace
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: prpl Foundation
+Repository: base
+Title: Registers available data models
+Maintainer: Soft At Home <support.opensource@softathome.com>
+Source: mod-usp_registration-v0.1.1.tar.gz
+License: BSD-2-Clause-Patent
+LicenseFiles: LICENSE
+Type: ipkg
+Description: 	This module helps registering data models when they are actually available
+https://gitlab.com/prpl-foundation/components/core/modules/mod-usp_registration
+Soft At Home <support.opensource@softathome.com>
+@@
+
+
