@@ -23,7 +23,8 @@ if [[ ! -d "workspace/prplos" ]]; then
 fi
 
 # setup prplos codebase HEAD points to ${TAG_or_BRANCH}
-tag_list=($(git --git-dir=./workspace/prplos/.git tag))
+tag_list="$(git --git-dir=./workspace/prplos/.git tag)"
+tag_list=(${tag_list} $(git --git-dir=./workspace/prplos/.git branch -a | awk 'NR>1 {print $1}'))
 if [[ -z ${TAG_INDEX} ]]; then
     count=0
     echo "======================"
